@@ -1,3 +1,3 @@
 export type UserCounterProps = {
-    initialCount?: number;
+  initialCount?: number
 }

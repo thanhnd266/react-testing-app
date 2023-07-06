@@ -96,3 +96,19 @@
       - Keyboard API: 
          + keyboard('foo') //translate to: f, o, o
          + keyboard('{Shift>}A{/Shift}') //translate to: Shift(down), A, Shift(up)
+
+# III. Static analysis testing
+   - Process of verifying that your code meets certain expectations without actually running it
+   - Static analysis testing:
+      + Ensure consistent style and formatting
+      + Check for common mistakes and possible bugs
+      + Limit the complexity of code
+      + Verify type consistency
+   - Different:
+      + All types of tests run the code and then compare the outcome against known expected outputs to see if everything works OK.
+      + Static testing analyses aspects such as readability, consistency, error handling, type checking, and alignment with best practices.
+      + Testing checks if your code works or not, whereas static analysis checks if it is written well or not.
+   - Tools: TypeScript, ESlint, Prettier, Husky, lint-staged.
+
+   ## ESlint:
+      - ESlint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
